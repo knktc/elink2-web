@@ -1,6 +1,6 @@
 # elink2-web
 
-[中文](README.md) · English
+*[English](README.en.md) | [简体中文](README.md)*
 
 Keep your elink2 flash cart going — flash GBA games from your browser.
 
