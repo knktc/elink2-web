@@ -1,8 +1,8 @@
 # elink2-web
 
-Keep your elink2 flash cart going — flash GBA games from your browser.
-
 [中文](README.md) · English
+
+Keep your elink2 flash cart going — flash GBA games from your browser.
 
 ## Why I built this
 

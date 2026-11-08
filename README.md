@@ -1,8 +1,8 @@
 # elink2-web
 
-让老 elink2 烧录卡继续用起来，在浏览器里烧录 GBA 游戏。
-
 中文 · [English](README.en.md)
+
+让老 elink2 烧录卡继续用起来，在浏览器里烧录 GBA 游戏。
 
 ## 为什么做这个工具
 
