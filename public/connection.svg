@@ -1,0 +1,186 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 660 240" fill="none">
+  <!-- The cable enters the exposed cart, above the GBA shell. -->
+  <path
+    d="M160.5 70V57c0-9 5-13 14-13H326c12 0 18 6 18 18v56.5c0 12 6 18 18 18h36.2"
+    stroke="#70608e"
+    stroke-width="5"
+    stroke-linecap="round"
+  />
+  <g stroke="#30274f" stroke-width="3" stroke-linejoin="round">
+    <g transform="translate(10 28) scale(.86)">
+      <path d="M131 75V55c0-4 3-7 7-7h75c4 0 7 3 7 7v20" fill="#a58bd7" />
+      <rect
+        x="143"
+        y="56"
+        width="65"
+        height="17"
+        rx="3"
+        fill="#cdbce9"
+        stroke-width="1.5"
+      />
+      <path d="M166 49V37h18v12" fill="#51455f" />
+
+      <!-- Wide AGB-001 shell, curved grips, and shoulder buttons. -->
+      <path
+        d="M39 94V86c0-5 3-8 8-9l47-8 10 11M250 80l9-11 45 8c5 1 8 4 8 9v8"
+        fill="#d9d5e1"
+        stroke="#8d839f"
+        stroke-width="2"
+      />
+      <path
+        d="M30 103c1-12 6-17 17-20l44-9 23-9c7-3 14-4 22-4h81c10 0 17 1 25 5l18 8 44 9c12 3 17 9 18 21l7 85c2 15-3 24-17 28l-43 10c-26 6-48 9-92 9s-70-3-96-9l-39-10c-14-4-19-12-18-27Z"
+        fill="#afa0d3"
+      />
+      <path
+        d="m37 104-7 84c-1 11 2 17 13 21l41 10c25 6 50 9 93 9s66-3 91-9l41-10c10-3 14-9 13-20"
+        stroke="#cbbde5"
+        stroke-width="2"
+        stroke-linecap="round"
+      />
+
+      <!-- The screen is landscape 3:2, within the tall dark GBA bezel. -->
+      <path
+        d="M112 89c0-7 5-11 13-12l39-2 65 3c8 1 12 6 13 13l3 103c0 10-5 15-14 16l-49 3-58-3c-10-1-14-6-14-15Z"
+        fill="#4f4964"
+        stroke="#302a43"
+      />
+      <rect
+        x="122"
+        y="94"
+        width="109"
+        height="75"
+        rx="2"
+        fill="#c7d4c9"
+        stroke="#332e44"
+        stroke-width="3"
+      />
+      <path d="M127 100h98" stroke="#dde6dc" stroke-width="1.5" />
+      <path
+        d="M151 194h52"
+        stroke="#b2abc5"
+        stroke-width="2"
+        stroke-linecap="round"
+      />
+
+      <!-- D-pad, diagonally placed A/B buttons, Select/Start and speaker grille. -->
+      <path
+        d="M59 119h12v13h13v12H71v13H59v-13H46v-12h13Z"
+        fill="#e0dce7"
+        stroke-width="2.5"
+      />
+      <path
+        d="M64 123v9m-13 6h9m16 0h4m-15 9v6"
+        stroke="#f5f1fa"
+        stroke-width="1.2"
+      />
+      <circle cx="294" cy="122" r="10" fill="#e0dce7" stroke-width="2" />
+      <circle cx="270" cy="134" r="10" fill="#e0dce7" stroke-width="2" />
+      <path
+        d="m292 126 2-7 3 7m-4-2h3m-27 6v8h2c4 0 4-4 0-4 3 0 3-4 0-4Z"
+        stroke="#94899f"
+        stroke-width="1.1"
+        stroke-linecap="round"
+      />
+      <rect
+        x="58"
+        y="177"
+        width="21"
+        height="8"
+        rx="4"
+        transform="rotate(13 58 177)"
+        fill="#d9d3e3"
+        stroke-width="1.5"
+      />
+      <rect
+        x="58"
+        y="194"
+        width="21"
+        height="8"
+        rx="4"
+        transform="rotate(13 58 194)"
+        fill="#d9d3e3"
+        stroke-width="1.5"
+      />
+      <path
+        d="m264 168 37-10m-37 19 37-10m-37 19 37-10m-37 19 37-10m-37 19 37-10"
+        stroke="#6a5c88"
+        stroke-width="3"
+        stroke-linecap="round"
+      />
+      <circle
+        cx="274"
+        cy="93"
+        r="3.5"
+        fill="#97b98a"
+        stroke="#68865d"
+        stroke-width="1"
+      />
+      <path
+        d="M158 68h32"
+        stroke="#82719e"
+        stroke-width="1.5"
+        stroke-linecap="round"
+      />
+    </g>
+
+    <!-- Keep both devices smaller, with more room for the cable between them. -->
+    <g transform="translate(79 28) scale(.86)">
+      <g transform="translate(-228 -74) scale(1.4)">
+        <rect
+          vector-effect="non-scaling-stroke"
+          x="435"
+          y="74"
+          width="179"
+          height="125"
+          rx="10"
+          fill="#eeebf6"
+          stroke="#282151"
+          stroke-width="3.5"
+        />
+        <rect
+          vector-effect="non-scaling-stroke"
+          x="448"
+          y="87"
+          width="153"
+          height="97"
+          rx="4"
+          fill="#e0d9f2"
+          stroke="#282151"
+          stroke-width="3.5"
+        />
+        <path
+          vector-effect="non-scaling-stroke"
+          d="M420 199h211v9q-5 12-19 12H439q-14 0-19-12Z"
+          fill="#d5cdec"
+          stroke="#282151"
+          stroke-width="3.5"
+        />
+        <rect
+          vector-effect="non-scaling-stroke"
+          x="428"
+          y="134"
+          width="10"
+          height="18"
+          rx="2"
+          fill="#4c4267"
+          stroke-width="3.5"
+        />
+        <circle
+          vector-effect="non-scaling-stroke"
+          cx="525"
+          cy="132"
+          r="19"
+          stroke="#a695d4"
+          stroke-width="2"
+        />
+        <path
+          vector-effect="non-scaling-stroke"
+          d="m518 133 5 5 10-12"
+          stroke="#8263ce"
+          stroke-width="3"
+          stroke-linecap="round"
+        />
+      </g>
+    </g>
+  </g>
+</svg>
