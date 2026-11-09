@@ -37,15 +37,15 @@ This tool requires WebUSB. Desktop Chrome and Microsoft Edge support the API, bu
 
 **Connect the cart**
 
-![Cart connection and USB device selection guide](assets/images/first-page.webp)
+![Cart connection and USB device selection guide](assets/images/first-page-en.webp)
 
 **Storage map and game list**
 
-![Cart storage distribution and game list](assets/images/game-list.webp)
+![Cart storage distribution and game list](assets/images/game-list-en.webp)
 
 **Write a game and customize its menu title**
 
-![Add a game, edit its menu title and preview the write](assets/images/write-game.webp)
+![Add a game, edit its menu title and preview the write](assets/images/write-game-en.webp)
 
 ### Planned features
 
