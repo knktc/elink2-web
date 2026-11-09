@@ -235,10 +235,13 @@ function dashboard() {
         .map((region) => {
           const game = region.kind === "game";
           const text = game
-            ? `${String(region.slot + 1).padStart(2, "0")} · ${region.title || t("untitled")}`
+            ? region.title || t("untitled")
             : t(region.kind);
+          const detail = game
+            ? `${String(region.slot + 1).padStart(2, "0")} · ${text}`
+            : text;
           const style = `width:${(region.length / windowSize) * 100}%;${game ? `--game-color:${color(region.slot)};background:${color(region.slot)}` : ""}`;
-          return `<${game ? "button" : "div"} class="segment ${region.kind} ${game && state.selected === region.slot ? "selected" : ""}" style="${style}" title="${escape(`${text} · ${size(region.length)}`)}" ${game ? `data-slot="${region.slot}" aria-label="${escape(`${text}, ${size(region.length)}`)}" aria-pressed="${state.selected === region.slot}"` : `role="img" aria-label="${escape(`${text}, ${size(region.length)}`)}"`}>${region.kind === "reserved" || region.kind === "saves" ? "" : `<span>${escape(text)}</span>`}${region.length > windowSize / 12 ? `<small>${size(region.length)}</small>` : ""}</${game ? "button" : "div"}>`;
+          return `<${game ? "button" : "div"} class="segment ${region.kind} ${game && state.selected === region.slot ? "selected" : ""}" style="${style}" title="${escape(`${detail} · ${size(region.length)}`)}" ${game ? `data-slot="${region.slot}" aria-label="${escape(`${detail}, ${size(region.length)}`)}" aria-pressed="${state.selected === region.slot}"` : `role="img" aria-label="${escape(`${detail}, ${size(region.length)}`)}"`}>${region.kind === "reserved" || region.kind === "saves" ? "" : `<span>${escape(text)}</span>`}${region.length > windowSize / 12 ? `<small>${size(region.length)}</small>` : ""}</${game ? "button" : "div"}>`;
         })
         .join("")}</div><div class="map-labels">${map.regions
         .filter(
