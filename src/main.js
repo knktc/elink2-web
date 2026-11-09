@@ -113,12 +113,14 @@ function readOnlyReason() {
 function render() {
   document.documentElement.lang = getLocale() === "zh" ? "zh-CN" : "en";
   app.innerHTML = `
-    <header class="header"><div class="brand"><img src="/cart.svg" width="37" height="37" alt=""><span>elink2-web</span></div>
+    <header class="header"><div class="brand" aria-label="elink2-web"><img src="/cart.svg" width="37" height="37" alt=""><span class="brand-name" aria-hidden="true">elink2</span><span class="brand-badge" aria-hidden="true">web</span></div>
       <div class="header-actions"><span class="connection ${state.snapshot ? "online" : ""}"><i></i>${label(state.snapshot ? "connected" : "disconnected")}</span>
       <select id="language" aria-label="${label("language")}"><option value="zh" ${getLocale() === "zh" ? "selected" : ""}>中文</option><option value="en" ${getLocale() === "en" ? "selected" : ""}>English</option></select>
       ${state.snapshot ? `<button class="quiet" id="disconnect" ${state.busy ? "disabled" : ""}>${label("disconnect")}</button>` : ""}
       <a class="github-link" href="https://github.com/knktc/elink2-web" target="_blank" rel="noopener noreferrer" aria-label="${label("githubLink")}" title="${label("githubLink")}"><img src="/github.svg" width="20" height="20" alt=""><span>GitHub</span></a></div></header>
-    <main>${state.snapshot ? dashboard() : connection()}
+    <main>
+      ${!supported ? `<p class="notice compatibility-notice" role="alert">${label("unsupported")}</p>` : ""}
+      ${state.snapshot ? dashboard() : connection()}
       ${state.result ? resultBanner() : ""}
       ${state.error && !state.modal ? errorBanner() : ""}
       <details class="diagnostics"><summary>${label("diagnostics")}</summary><div class="diagnostic-actions">
@@ -212,7 +214,6 @@ function connection() {
           <p class="direct">${label("directHint")} <button class="text-button" data-connect="direct" ${!supported ? "disabled" : ""}>${label("direct")}</button></p>
           <p class="picker-note">${label("pickerBody")}</p>`
       }
-      ${!supported ? `<p class="notice">${label("unsupported")}</p>` : ""}
     </section></section>`;
 }
 

@@ -183,7 +183,7 @@ const messages = {
     writingMenu: "正在更新菜单…",
     verifyingMenu: "正在校验新菜单…",
     unsupported:
-      "请在桌面版 Chrome 中通过 HTTPS 或 localhost 打开此页面，再连接卡带。",
+      "请在桌面版 Chrome 中打开此页面，再连接卡带。",
     overview: "卡带概览",
     addressWindow: "卡带容量",
     used: "游戏占用",

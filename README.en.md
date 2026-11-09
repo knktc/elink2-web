@@ -20,6 +20,19 @@ A small, local-first web tool for elink2. Connect the **Mini-USB port on the car
 
 Currently supports viewing the cart storage map and game list, adding and replacing games, and deleting a selected game and all games after it.
 
+### Browser compatibility and testing
+
+The following setups have been tested with a physical cart and work correctly:
+
+| Device | Operating system | Browser | Result |
+| --- | --- | --- | --- |
+| MacBook Pro 14-inch (M5) | macOS | Google Chrome | Works correctly |
+| MacBook Pro 13-inch (2018, Intel Core i5) | macOS | Google Chrome | Works correctly |
+
+Other operating system and browser combinations await further testing.
+
+This tool requires WebUSB. Desktop Chrome and Microsoft Edge support the API, but Edge has not yet been tested with this project on real hardware. Safari and Firefox currently do not support WebUSB and cannot connect to the cart through this tool. See [MDN's WebUSB compatibility information](https://developer.mozilla.org/en-US/docs/Web/API/USB#browser_compatibility). Open the page over HTTPS or localhost.
+
 ### Screenshots
 
 **Connect the cart**
