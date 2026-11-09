@@ -261,7 +261,7 @@ const messages = {
     close: "关闭",
     busyNote: "请保持 GBA 开机和 USB 连接。",
     retry: "返回连接",
-    source: "elink2-web · 让老卡带继续用起来。",
+    source: "elink2-web · 让老烧录卡继续用起来。",
     mapLabel: "卡带地址分布图，选择游戏可高亮对应列表行",
     errors: {
       reconnectRequired: "USB 会话未能关闭，请拔下卡带并刷新页面，再重新连接。",

@@ -126,7 +126,7 @@ function render() {
       <details class="diagnostics"><summary>${label("diagnostics")}</summary><div class="diagnostic-actions">
         ${state.snapshot ? `<button id="menu-backup" class="secondary">${label("menuBackup")}</button>` : ""}
         <button class="secondary" id="logs">${label("logs")}</button></div><p class="muted small">${label("local")}</p></details>
-    </main><footer>${label("source")}</footer><dialog id="operation-dialog" aria-labelledby="dialog-title"></dialog>`;
+    </main><footer>${label("source")} <span class="footer-credit">· by <a href="${getLocale() === "en" ? "https://knktc.com/en/" : "https://knktc.com"}" target="_blank" rel="noopener noreferrer">knktc</a></span></footer><dialog id="operation-dialog" aria-labelledby="dialog-title"></dialog>`;
   document.querySelector("#language").onchange = (event) => {
     setLocale(event.target.value);
     render();
