@@ -165,7 +165,7 @@ p {
 }
 main {
   max-width: 1320px;
-  padding: 44px 36px 20px;
+  padding: 24px 36px 20px;
   margin: 0 auto;
   min-height: calc(100dvh - 150px);
 }
@@ -870,9 +870,6 @@ input[type="file"]::file-selector-button {
   accent-color: var(--accent);
 }
 @media (min-width: 1600px) {
-  .connect-area {
-    margin-top: 45px;
-  }
   .connect-card {
     padding-top: 45px;
     padding-bottom: 40px;
